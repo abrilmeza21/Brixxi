@@ -70,15 +70,11 @@ h3{
     background-color: salmon;
     padding: 5px;
 }
-/* section productos */
-.nuestrosproductos{
-    min-height: 400px;
-}
-h2{
-    text-align: center;
-    color: #FF6C0f;
-    font-family: 'Bebas Neue', cursiva; 
-}
+/* carousel */
+
+
+
+
 /* footer  */
 footer {
     background: pink;
