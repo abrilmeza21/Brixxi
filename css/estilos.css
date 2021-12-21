@@ -54,6 +54,7 @@ h1 {
 .imgProductos3 {
     display: none;
 }
+/* forms */
 form{
     font-size: 20px;
     width: 40vh;
@@ -61,7 +62,7 @@ form{
     color: white;
     text-align: center;
     border: 5px solid salmon;
-    margin: 0vh 10vh;
+    margin: 20vh auto;
     font-family: 'Bebas Neue', cursiva; 
 }
 h3{
@@ -69,17 +70,23 @@ h3{
     background-color: salmon;
     padding: 5px;
 }
+/* section productos */
+.nuestrosproductos{
+    min-height: 400px;
+}
+h2{
+    text-align: center;
+    color: #FF6C0f;
+    font-family: 'Bebas Neue', cursiva; 
+}
 /* footer  */
-
 footer {
-    background: #FF6C0F;
+    background: pink;
     height: 10vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-
-
 @media only screen and (min-width: 481px) {
     .logo img {
         width: 70%;
