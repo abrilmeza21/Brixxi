@@ -77,6 +77,7 @@ h3{
 
 /* footer  */
 footer {
+    background-image:linear-gradient(pink,#FF6C0F);
     background: pink;
     height: 10vh;
     display: flex;
