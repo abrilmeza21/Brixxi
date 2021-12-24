@@ -35,6 +35,7 @@
 h1 {
     text-align: center;
     color:#FF6C0F;
+    text-shadow: 2px 2px 2px pink;
 }
 .portada {
     width: 90%;
@@ -51,6 +52,10 @@ h1 {
     height: 40vh;
     margin: 5%;
 }
+.imgProductos:hover{
+    transform: scale(1.2)
+}
+
 .imgProductos3 {
     display: none;
 }
@@ -72,16 +77,16 @@ h3{
 }
 /* carousel */
 
-
-
-
 /* footer  */
 footer {
-    background: pink;
+    background-image: linear-gradient(pink 45%, #FF6C0F);
     height: 10vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+h2{
+    color: #F00758;
 }
 @media only screen and (min-width: 481px) {
     .logo img {
@@ -91,7 +96,7 @@ footer {
         height: 60vh;
     }
     form{
-        margin:  0vh 25vh;
+        margin:  16vh auto;
     }
 }
 
@@ -100,10 +105,10 @@ footer {
         width: 50%;
     }
     .imgProductos {
-        height: 75vh;
+        height: 85vh;
     }
     form{
-        margin:  0vh 50vh;
+        margin:  15vh auto;
     }
 }
 
@@ -125,12 +130,15 @@ footer {
         height: 85vh;
         margin: 1.5%;
     }
+    .imgProductos3:hover{
+        transform: scale(1.2)
+    }
     .navbar-light .navbar-nav .nav-link {
-        font-size: 20px;
+        font-size: 17px;
     }
     form{
         width: 75vh;
-        margin:  0vh 60vh;
+        margin:  13vh auto;
     }
 }
 
@@ -161,11 +169,13 @@ footer {
         height: 95vh;
         margin: 1.5%;
     }
+    .imgProductos3:hover{
+        transform: scale(1.2)
+    }
     .navbar-light .navbar-nav .nav-link {
-            font-size: 20px;
+        font-size: 20px;
     }
     form{
         width: 90vh;
-        margin:  0vh 100vh;
     }
 }
