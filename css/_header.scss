@@ -1,0 +1,20 @@
+.navbar {
+    background-color: pink;
+
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #FF6C0F;
+    font-size: 15px;
+}
+.logo{
+    width: 50%;
+        &img {
+            width: 100%;
+        }
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
