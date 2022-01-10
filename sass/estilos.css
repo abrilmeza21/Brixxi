@@ -1,4 +1,9 @@
-<<<<<<< HEAD
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+/* header */
 .navbar {
   background-color: pink;
 }
@@ -11,7 +16,8 @@
 .logo {
   width: 50%;
 }
-.logoimg {
+
+.logo img {
   width: 100%;
 }
 
@@ -21,6 +27,7 @@
   align-items: center;
 }
 
+/* main index */
 .sec1 {
   display: flex;
   flex-direction: column;
@@ -30,7 +37,7 @@
 h1 {
   text-align: center;
   color: #FF6C0F;
-  text-shadow: 2px 2px 2px pink;
+  text-shadow: 2px 2px 2px;
 }
 
 .portada {
@@ -59,6 +66,7 @@ h1 {
   display: none;
 }
 
+/* forms */
 form {
   font-size: 20px;
   width: 40vh;
@@ -76,6 +84,8 @@ h3 {
   padding: 5px;
 }
 
+/* carousel */
+/* footer  */
 footer {
   background-image: linear-gradient(pink 45%, #FF6C0F);
   height: 10vh;
@@ -86,11 +96,6 @@ footer {
 
 h2 {
   color: #F00758;
-}
-
-* {
-  margin: 0%;
-  padding: 0%;
 }
 
 @media only screen and (min-width: 481px) {
@@ -199,25 +204,4 @@ h2 {
   form {
     width: 90vh;
   }
-}
-
-/*# sourceMappingURL=estilos.css.map */
-=======
-/* Error: Undefined variable.
- *   ,
- * 9 |     background-color: $color1;
- *   |                       ^^^^^^^
- *   '
- *   sass\estilos.scss 9:23  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a   \2577 \a 9 \2502      background-color: $color1;\d\a   \2502                        ^^^^^^^\a   \2575 \a   sass\\estilos.scss 9:23  root stylesheet";
-}
->>>>>>> 020c84b9beb12bffa13d92bdc43ffa6d6bcc6460
+}/*# sourceMappingURL=estilos.css.map */
