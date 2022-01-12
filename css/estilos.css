@@ -1,181 +1,221 @@
-*{
-    margin: 0%;
-    padding: 0%;
-}
-
-/* header */
-
 .navbar {
-    background-color: pink;
-
+  background-color: pink;
 }
-.navbar-light .navbar-nav .nav-link {
-    color: #FF6C0F;
-    font-size: 15px;
+.navbar.container-fluid {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
-.logo{
-    width: 50%;
+.navbar.logo {
+  width: 50%;
 }
-.logo img {
-    width: 100%;
+.navbar.logoimg {
+  width: 100%;
 }
-.container-fluid {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-/* main index */
 
 .sec1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-h1 {
-    text-align: center;
-    color:#FF6C0F;
-    text-shadow: 2px 2px 2px pink;
+.sec1h1 {
+  text-align: center;
+  color: #FF6C0F;
+  text-shadow: 2px 2px 2px pink;
 }
-.portada {
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
+.sec1.portada {
+  whidth: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
 }
-.imgPortada {
-    width: 50%;
-    margin: 0 ;
+.sec1.portada.imgPortada {
+  whidth: 50%;
+  margin: 0;
 }
-.imgProductos {
-    width: 40%;
-    height: 40vh;
-    margin: 5%;
+.sec1.portada.imgProductos {
+  whidth: 40%;
+  margin: 5%;
+  height: 40vh;
+  height: 40vh;
 }
-.imgProductos:hover{
-    transform: scale(1.2)
+.sec1.portada .imgProductos3 {
+  display: none;
 }
 
-.imgProductos3 {
-    display: none;
+.imgProductos:hover {
+  transform: scale(1.2);
 }
-/* forms */
-form{
-    font-size: 20px;
-    width: 40vh;
-    background-color: palevioletred;
-    color: white;
-    text-align: center;
-    border: 5px solid salmon;
-    margin: 20vh auto;
-    font-family: 'Bebas Neue', cursiva; 
-}
-h3{
-    font-size: 35px;
-    background-color: salmon;
-    padding: 5px;
-}
-/* carousel */
 
-/* footer  */
+form {
+  font-size: 20px;
+  width: 40vh;
+  background-color: palevioletred;
+  color: white;
+  text-align: center;
+  border: 5px solid salmon;
+  margin: 20vh auto;
+  font-family: "Bebas Neue", cursiva;
+}
+formh3 {
+  font-size: 35px;
+  background-color: salmon;
+  padding: 5px;
+}
+
 footer {
-    background-image: linear-gradient(pink 45%, #FF6C0F);
-    height: 10vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  background-image: linear-gradient(pink 45%, #FF6C0F);
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
-h2{
-    color: #F00758;
+footer .contacto--red1 {
+  color: #F00758;
+  font-size: 60px;
 }
+footer .contacto--red2 {
+  color: #f33c7c;
+  font-size: 60px;
+}
+footer .contacto--red3 {
+  color: #f1729f;
+  font-size: 60px;
+}
+
+.sec2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sec2h1 {
+  text-align: center;
+  color: #FF6C0F;
+  text-shadow: 2px 2px 2px pink;
+}
+.sec2.info {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.sec2.info .imginfo1, .sec2.info .imginfo2 {
+  width: 40%;
+  height: 40vh;
+  margin: 5%;
+}
+.imgProductos:hover {
+  transform: scale(1.2);
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
 @media only screen and (min-width: 481px) {
-    .logo img {
-        width: 70%;
-    }
-    .imgProductos{
-        height: 60vh;
-    }
-    form{
-        margin:  16vh auto;
-    }
-}
+  .logo img {
+    width: 70%;
+  }
 
+  .imgProductos {
+    height: 60vh;
+  }
+
+  form {
+    margin: 16vh auto;
+  }
+}
 @media only screen and (min-width: 769px) {
-    .logo img {
-        width: 50%;
-    }
-    .imgProductos {
-        height: 85vh;
-    }
-    form{
-        margin:  15vh auto;
-    }
-}
+  .logo img {
+    width: 50%;
+  }
 
+  .imgProductos {
+    height: 85vh;
+  }
+
+  form {
+    margin: 15vh auto;
+  }
+}
 @media only screen and (min-width: 1024px) {
-    .container-fluid {
-        justify-content: space-between;
-    }
-    .menu {
-        justify-content: flex-end;
-    }
-    .imgProductos {
-        width: 30%;
-        height: 85vh;
-        margin: 1.5%;
-    }
-    .imgProductos3 {
-        display: block;
-        width: 30%;
-        height: 85vh;
-        margin: 1.5%;
-    }
-    .imgProductos3:hover{
-        transform: scale(1.2)
-    }
-    .navbar-light .navbar-nav .nav-link {
-        font-size: 17px;
-    }
-    form{
-        width: 75vh;
-        margin:  13vh auto;
-    }
+  .container-fluid {
+    justify-content: space-between;
+  }
+
+  .menu {
+    justify-content: flex-end;
+  }
+
+  .imgProductos {
+    width: 30%;
+    height: 85vh;
+    margin: 1.5%;
+  }
+
+  .imgProductos3 {
+    display: block;
+    width: 30%;
+    height: 85vh;
+    margin: 1.5%;
+  }
+
+  .imgProductos3:hover {
+    transform: scale(1.2);
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 17px;
+  }
+
+  form {
+    width: 75vh;
+    margin: 13vh auto;
+  }
+}
+@media only screen and (min-width: 1624px) {
+  .logo img {
+    width: 30%;
+  }
+
+  .container-fluid {
+    justify-content: space-between;
+  }
+
+  .menu {
+    justify-content: flex-end;
+  }
+
+  .portada {
+    height: 95%;
+  }
+  .portada .imgPortada {
+    width: 50%;
+    height: 95vh;
+    margin: 0;
+  }
+  .portada .imgProductos {
+    height: 95vh;
+  }
+  .portada imgProductos3 {
+    display: block;
+    width: 30%;
+    height: 95vh;
+    margin: 1.5%;
+  }
+
+  .imgProductos3:hover {
+    transform: scale(1.2);
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 20px;
+  }
+
+  form {
+    width: 90vh;
+  }
 }
 
-@media only screen and (min-width: 1624px) {
-    .logo img {
-        width: 30%;
-    }
-    .container-fluid {
-        justify-content: space-between;
-    }
-    .menu {
-        justify-content: flex-end;
-    }
-    .portada {
-        height: 95%;
-    }
-    .imgPortada {
-        width: 50%;
-        height: 95vh;
-        margin: 0 ;
-    }
-    .imgProductos {
-        height: 95vh;
-    }
-    .imgProductos3 {
-        display: block;
-        width: 30%;
-        height: 95vh;
-        margin: 1.5%;
-    }
-    .imgProductos3:hover{
-        transform: scale(1.2)
-    }
-    .navbar-light .navbar-nav .nav-link {
-        font-size: 20px;
-    }
-    form{
-        width: 90vh;
-    }
-}
+/*# sourceMappingURL=estilos.css.map */

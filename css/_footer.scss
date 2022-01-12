@@ -1,0 +1,21 @@
+$color: (
+    red1: #F00758,
+    red2: #f33c7c,
+    red3: #f1729f
+);
+
+footer {
+        background-image: linear-gradient($color1 45%, $color2);
+        height: 10vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        @each $red, $colores in $color {
+            & .contacto--#{$red} {
+                color: $colores;
+                    font-size: 60px;
+            }
+        }
+}
+
+

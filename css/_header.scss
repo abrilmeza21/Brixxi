@@ -1,0 +1,14 @@
+.navbar {
+    background-color: $color1;
+        &.container-fluid {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        &.logo{
+            width: 50%;
+                &img {
+                    width: 100%;
+                }
+        }
+}
