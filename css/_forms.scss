@@ -4,12 +4,13 @@ form{
     background-color: palevioletred;
     color: white;
     text-align: center;
-    border: 5px solid salmon;
+    border: 5px solid $color3;
     margin: 20vh auto;
     font-family: 'Bebas Neue', cursiva; 
+        &h3{
+            font-size: 35px;
+            background-color: $color3;
+            padding: 5px;
+        }
 }
-h3{
-    font-size: 35px;
-    background-color: salmon;
-    padding: 5px;
-}
+

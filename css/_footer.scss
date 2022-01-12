@@ -1,10 +1,10 @@
 footer {
-    background-image: linear-gradient(pink 45%, #FF6C0F);
+    background-image: linear-gradient($color1 45%, $color2);
     height: 10vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
-h2{
-    color: #F00758;
+        &h2{
+            color: #F00758;
+        }
 }

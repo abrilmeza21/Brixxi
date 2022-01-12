@@ -1,6 +1,16 @@
-<<<<<<< HEAD
 .navbar {
   background-color: pink;
+}
+.navbar.container-fluid {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar.logo {
+  width: 50%;
+}
+.navbar.logoimg {
+  width: 100%;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -8,54 +18,35 @@
   font-size: 15px;
 }
 
-.logo {
-  width: 50%;
-}
-.logoimg {
-  width: 100%;
-}
-
-.container-fluid {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
 .sec1 {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
-h1 {
+.sec1h1 {
   text-align: center;
   color: #FF6C0F;
   text-shadow: 2px 2px 2px pink;
 }
-
-.portada {
+.sec1.portada {
   width: 90%;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
 }
-
-.imgPortada {
+.sec1.imgPortada {
   width: 50%;
   margin: 0;
 }
-
-.imgProductos {
+.sec1.imgProductos {
   width: 40%;
   height: 40vh;
   margin: 5%;
 }
-
-.imgProductos:hover {
+.sec1 .imgProductos:hover {
   transform: scale(1.2);
 }
-
-.imgProductos3 {
+.sec1 .imgProductos3 {
   display: none;
 }
 
@@ -69,8 +60,7 @@ form {
   margin: 20vh auto;
   font-family: "Bebas Neue", cursiva;
 }
-
-h3 {
+formh3 {
   font-size: 35px;
   background-color: salmon;
   padding: 5px;
@@ -83,8 +73,7 @@ footer {
   justify-content: space-around;
   align-items: center;
 }
-
-h2 {
+footerh2 {
   color: #F00758;
 }
 
@@ -170,18 +159,15 @@ h2 {
   .portada {
     height: 95%;
   }
-
-  .imgPortada {
+  .portada .imgPortada {
     width: 50%;
     height: 95vh;
     margin: 0;
   }
-
-  .imgProductos {
+  .portada .imgProductos {
     height: 95vh;
   }
-
-  .imgProductos3 {
+  .portada imgProductos3 {
     display: block;
     width: 30%;
     height: 95vh;
@@ -199,25 +185,4 @@ h2 {
   form {
     width: 90vh;
   }
-}
-
-/*# sourceMappingURL=estilos.css.map */
-=======
-/* Error: Undefined variable.
- *   ,
- * 9 |     background-color: $color1;
- *   |                       ^^^^^^^
- *   '
- *   sass\estilos.scss 9:23  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a   \2577 \a 9 \2502      background-color: $color1;\d\a   \2502                        ^^^^^^^\a   \2575 \a   sass\\estilos.scss 9:23  root stylesheet";
-}
->>>>>>> 020c84b9beb12bffa13d92bdc43ffa6d6bcc6460
+}/*# sourceMappingURL=estilos.css.map */

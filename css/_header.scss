@@ -1,20 +1,19 @@
 .navbar {
-    background-color: pink;
-
-}
-.navbar-light .navbar-nav .nav-link {
-    color: #FF6C0F;
-    font-size: 15px;
-}
-.logo{
-    width: 50%;
-        &img {
-            width: 100%;
+    background-color: $color1;
+        &.container-fluid {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        &.logo{
+            width: 50%;
+                &img {
+                    width: 100%;
+                }
         }
 }
-
-.container-fluid {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.navbar-light .navbar-nav .nav-link {
+    color: $color2;
+    font-size: 15px;
 }
+
