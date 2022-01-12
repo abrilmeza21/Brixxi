@@ -6,14 +6,21 @@ $color3:salmon;
 @import"mainindex";
 @import"forms";
 @import"footer";
+<<<<<<< HEAD
 @import"maininfo";
 
+=======
+>>>>>>> 53e34a951312049277902d21e6fa85cf4f4edad4
 
 *{
     margin: 0%;
     padding: 0%;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 53e34a951312049277902d21e6fa85cf4f4edad4
 @media only screen and (min-width: 481px) {
     .logo{
         & img {
@@ -110,4 +117,8 @@ $color3:salmon;
     form{
         width: 90vh;
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 53e34a951312049277902d21e6fa85cf4f4edad4

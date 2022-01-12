@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 $color: (
     red1: #F00758,
     red2: #f33c7c,
@@ -19,3 +20,15 @@ footer {
 }
 
 
+=======
+footer {
+    background-image: linear-gradient($color1 45%, $color2);
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+        &h2{
+            color: #F00758;
+        }
+}
+>>>>>>> 53e34a951312049277902d21e6fa85cf4f4edad4
