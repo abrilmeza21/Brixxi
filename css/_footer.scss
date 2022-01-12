@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 734f659635b89ad05d0d85067d468efa4b288cc0
 $color: (
     red1: #F00758,
     red2: #f33c7c,
@@ -5,14 +9,41 @@ $color: (
 );
 
 footer {
+<<<<<<< HEAD
+=======
+        background-image: linear-gradient($color1 45%, $color2);
+        height: 10vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        @each $red, $colores in $color {
+            & .contacto--#{$red} {
+                color: $colores;
+                    font-size: 60px;
+            }
+        }
+}
+
+
+=======
+footer {
+>>>>>>> 734f659635b89ad05d0d85067d468efa4b288cc0
     background-image: linear-gradient($color1 45%, $color2);
     height: 10vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
+<<<<<<< HEAD
     @each $red, $colores in $color {
     & .contacto--#{$red} {
         color: $colores;
     }
     }
 }
+=======
+        &h2{
+            color: #F00758;
+        }
+}
+>>>>>>> 53e34a951312049277902d21e6fa85cf4f4edad4
+>>>>>>> 734f659635b89ad05d0d85067d468efa4b288cc0

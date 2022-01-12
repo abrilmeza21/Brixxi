@@ -12,13 +12,22 @@
             margin: 0 auto;
             display: flex;
             flex-wrap: wrap; 
+<<<<<<< HEAD
             & .info--info1 {
+=======
+            & .imginfo1 {
+>>>>>>> 734f659635b89ad05d0d85067d468efa4b288cc0
                 width: 40%;
                 height: 40vh;
                 margin: 5%;
             }
+<<<<<<< HEAD
             & .info--info2 {
                 @extend .info--info1;
+=======
+            & .imginfo2{
+                @extend .imginfo1;
+>>>>>>> 734f659635b89ad05d0d85067d468efa4b288cc0
             }
         }
     

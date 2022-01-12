@@ -1,7 +1,18 @@
+<<<<<<< HEAD
 @mixin sizes ($width, $margin){
     width: $width;
     margin:$margin
 }
+=======
+<<<<<<< HEAD
+@mixin sizes ($whidth, $margin){
+    whidth: $whidth;
+    margin:$margin
+}
+=======
+
+>>>>>>> 53e34a951312049277902d21e6fa85cf4f4edad4
+>>>>>>> 734f659635b89ad05d0d85067d468efa4b288cc0
 .sec1 {
     display: flex;
     flex-direction: column;
@@ -12,6 +23,10 @@
             text-shadow: 2px 2px 2px $color1;
         }
         &.portada {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 734f659635b89ad05d0d85067d468efa4b288cc0
         @include sizes(90%, 0 auto );
             display: flex;
             flex-wrap: wrap;
@@ -21,13 +36,47 @@
             &.imgProductos {
                 @include sizes(40% , 5% );
                 height: 40vh;
+<<<<<<< HEAD
+=======
+                height: 40vh;
+            
+=======
+            width: 90%;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+        }
+            &.imgPortada {
+                width: 50%;
+                margin: 0 ;
+            }
+            &.imgProductos {
+                width: 40%;
+                height: 40vh;
+                margin: 5%;
+            }
+            .imgProductos:hover{
+                transform: scale(1.2)
+>>>>>>> 53e34a951312049277902d21e6fa85cf4f4edad4
+>>>>>>> 734f659635b89ad05d0d85067d468efa4b288cc0
             }
             & .imgProductos3 {
                 display: none;
             }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 734f659635b89ad05d0d85067d468efa4b288cc0
         }
 }
 .imgProductos:hover{
     transform: scale(1.2)
 }
+<<<<<<< HEAD
 
+=======
+=======
+}
+
+>>>>>>> 53e34a951312049277902d21e6fa85cf4f4edad4
+>>>>>>> 734f659635b89ad05d0d85067d468efa4b288cc0
