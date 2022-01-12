@@ -1,9 +1,9 @@
 /* Error: expected "{".
- *    ,
- * 10 | @import"maininfo";
- *    |                  ^
- *    '
- *   css\estilos.scss 10:18  root stylesheet */
+ *     ,
+ * 113 | <<<<<<< HEAD
+ *     |             ^
+ *     '
+ *   css\estilos.scss 113:13  root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -13,5 +13,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: 'Error: expected "{".\a    \2577 \a 10 \2502  @import"maininfo";\d\a    \2502                   ^\a    \2575 \a   css\\estilos.scss 10:18  root stylesheet';
+  content: 'Error: expected "{".\a     \2577 \a 113 \2502  <<<<<<< HEAD\d\a     \2502              ^\a     \2575 \a   css\\estilos.scss 113:13  root stylesheet';
 }
