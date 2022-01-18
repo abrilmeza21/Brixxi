@@ -1,0 +1,28 @@
+.navbar {
+    background-color: $color1;
+        &.container-fluid {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        &.logo{
+            width: 50%;
+                &img {
+                    width: 100%;
+                }
+        }
+}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 734f659635b89ad05d0d85067d468efa4b288cc0
+.navbar-light .navbar-nav .nav-link {
+    color: $color2;
+    font-size: 15px;
+}
+
+<<<<<<< HEAD
+=======
+>>>>>>> 53e34a951312049277902d21e6fa85cf4f4edad4
+>>>>>>> 734f659635b89ad05d0d85067d468efa4b288cc0
