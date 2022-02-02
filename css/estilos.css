@@ -96,8 +96,11 @@ h3{
     color: white;
     margin: 0 auto;
 }
-.btn .btn-primary .cards{
+
+.btn-primary{
     background-color: #F00758;
+    color:pink;
+    border-color: #F00758;
 }
 
 /* informacion */
@@ -113,15 +116,13 @@ footer {
     justify-content: space-around;
     align-items: center;
 }
-.btn-primary{
-color: white;
-background-color: #F00758;
-border-color:#F00758 ;
+.icon {
+    color: #F00758;
+    font-size: 25px;
+    justify-items: space-around;
+    margin: 20px;
 }
-.btn-primary:hover{
-    background-color: #FF6C0F;
-    border-color: #F00758;
-}
+
 @media only screen and (min-width: 481px) {
     .logo img {
         width: 70%;
